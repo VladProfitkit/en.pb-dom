@@ -12,20 +12,20 @@
           </div>
       </div>
       
-      <div class="col-lg-3 right  margin-footer">
+      <div class="col-lg-3<?// margin-footer?>">
         <div class="widget">
-          <p class="widgetheading">Меню</p>
+          <p class="widgetheading">Menu</p>
           <?php
           wp_nav_menu(
-                        array(
+            array(
               "menu" => "footer",
               "menu_class" => "link-list",
-                            "container" => false,
+              "container" => false,
             )
           );?>
         </div>
       </div>
-      
+      <?/*
       <div class="col-lg-3">
         <div class="text-center">
           <span>Разработка сайта:</span><br>
@@ -33,6 +33,7 @@
           <p class="logo-size">Агенство интернет - маркетинга</p>
         </div>
       </div>
+      */?>
     </div>
   <?php wp_footer();?>
   </div>

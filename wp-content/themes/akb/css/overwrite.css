@@ -1523,3 +1523,7 @@ table td {
 .h1--kontakty {
     text-align: left;
 }
+
+.box .box-gray {
+    height: auto !important;
+}
