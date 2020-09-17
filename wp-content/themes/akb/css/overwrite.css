@@ -1527,3 +1527,88 @@ table td {
 .box .box-gray {
     height: auto !important;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #menu-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        float: none;
+        margin: 15px auto 15px;
+        max-width: 450px;
+    }
+
+    .navbar .nav > li > a {
+        padding: 3px 0 3px !important;
+    }
+
+    .menu .current_page_item a::after {
+        bottom: 6px;
+    }
+
+    .navbar-collapse.collapse {
+        display: flex !important;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .call-box {
+        float: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .call-box > div:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+
+    .navbar-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+    }
+
+    .navbar-brand {
+        height: auto;
+    }
+
+    .call-box span {
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 880px) {
+    .navbar-header {
+        max-width: 160px !important;
+    }
+
+    .logo-box {
+        max-width: 100%;
+    }
+
+    .call-box span {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-brand {
+        display: block;
+        height: auto;
+    }
+
+    .navbar-header {
+        padding-bottom: 20px;
+    }
+
+    .navbar-collapse.collapse {
+        height: auto;
+        max-height: none;
+    }
+
+    .navbar .nav > li > a {
+        padding: 10px 0 10px !important;
+        font-size: 14px !important;
+    }
+}
