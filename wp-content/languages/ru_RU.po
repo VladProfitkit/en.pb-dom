@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-19 16:16:42+0000\n"
+"PO-Revision-Date: 2020-10-29 20:15:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ru\n"
 "Project-Id-Version: WordPress - 5.1.x\n"
+
+#: wp-includes/class-wp-xmlrpc-server.php:3837
+#: wp-includes/class-wp-xmlrpc-server.php:3844
+msgid "Sorry, you are not allowed to comment on this post."
+msgstr "Извините, вам не разрешено комментировать эту запись."
 
 #. translators: Maximum number of words used in a comment excerpt.
 #: wp-includes/comment-template.php:601
@@ -3259,39 +3264,39 @@ msgstr "Несуществующий UUID набора изменений."
 msgid "Invalid changeset UUID"
 msgstr "Неверный UUID набора изменений"
 
-#: wp-includes/functions.php:6889
+#: wp-includes/functions.php:6890
 msgid "Update PHP"
 msgstr "Обновить PHP"
 
 #. translators: %s: default Update PHP page URL
-#: wp-includes/functions.php:6833
+#: wp-includes/functions.php:6834
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "Данная ссылка предоставлена вашим хостингом и является специфичной для вашего сайта. Для подробной информации смотрите <a href=\"%s\" target=\"_blank\">официальную документацию WordPress</a>."
 
-#: wp-includes/functions.php:6811
+#: wp-includes/functions.php:6812
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://ru.wordpress.org/support/upgrade-php/"
 
 #. translators: deleted long text
-#: wp-includes/functions.php:6642
+#: wp-includes/functions.php:6643
 msgid "This content was deleted by the author."
 msgstr "Содержимое было удалено автором."
 
 #. translators: deleted text
-#: wp-includes/functions.php:6638
+#: wp-includes/functions.php:6639
 msgid "[deleted]"
 msgstr "[удалено]"
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title
-#: wp-includes/functions.php:6496
+#: wp-includes/functions.php:6497
 msgid "[%s] Notice of Admin Email Change"
 msgstr "[%s] Уведомление о смене адреса электронной почты администратора"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:6479
+#: wp-includes/functions.php:6480
 msgid ""
 "Hi,\n"
 "\n"
@@ -3318,74 +3323,74 @@ msgstr ""
 "Команда сайта ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:6395
+#: wp-includes/functions.php:6396
 msgid "Only UUID V4 is supported at this time."
 msgstr "В настоящее время поддерживаются только UUID V4."
 
-#: wp-includes/functions.php:5995
+#: wp-includes/functions.php:5996
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "Страница входа откроется в новом окне. После входа вы можете закрыть окно и вернуться к текущей странице."
 
-#: wp-includes/functions.php:5975 wp-includes/js/dist/components.js:32677
+#: wp-includes/functions.php:5976 wp-includes/js/dist/components.js:32677
 msgid "Close dialog"
 msgstr "Закрыть окно"
 
-#: wp-includes/functions.php:5297
+#: wp-includes/functions.php:5298
 msgid "Manual Offsets"
 msgstr "Ручные смещения"
 
-#: wp-includes/functions.php:5288 wp-includes/functions.php:5293
+#: wp-includes/functions.php:5289 wp-includes/functions.php:5294
 #: wp-admin/options-general.php:241
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:5243
+#: wp-includes/functions.php:5244
 msgid "Select a city"
 msgstr "Выберите город"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message
-#: wp-includes/functions.php:4672
+#: wp-includes/functions.php:4673
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "Функция %1$s вызвана <strong>неправильно</strong>. %2$s %3$s"
 
-#: wp-includes/functions.php:4669
+#: wp-includes/functions.php:4670
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
-#: wp-includes/functions.php:4668
+#: wp-includes/functions.php:4669
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Дополнительную информацию можно найти на странице <a href=\"%s\">&laquo;Отладка в WordPress&raquo;</a>."
 
 #. translators: %s: version number
-#: wp-includes/functions.php:4664
+#: wp-includes/functions.php:4665
 msgid "(This message was added in version %s.)"
 msgstr "(Это сообщение было добавлено в версии %s.)"
 
 #. translators: 1: PHP function name, 2: version number
-#: wp-includes/functions.php:4554
+#: wp-includes/functions.php:4555
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Функция %1$s вызвана с аргументом, который <strong>считается устаревшим</strong> с версии %2$s. Альтернативы не предусмотрено."
 
 #. translators: 1: PHP function name, 2: version number, 3: optional message
 #. regarding the change
-#: wp-includes/functions.php:4551
+#: wp-includes/functions.php:4552
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "Функция %1$s вызвана с аргументом, который <strong>считается устаревшим</strong> с версии %2$s! %3$s."
 
-#: wp-includes/functions.php:4409
+#: wp-includes/functions.php:4410
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Вызванный метод конструктора класса %1$s считается <strong>устаревшим</strong> с версии %2$s! Используйте %3$s."
 
-#: wp-includes/functions.php:4398
+#: wp-includes/functions.php:4399
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Вызванный метод конструктора класса %1$s в %2$s считается <strong>устаревшим</strong> с версии %3$s! Используйте %4$s."
 
 #. translators: 1: PHP function name, 2: version number
 #. translators: 1: PHP file name, 2: version number
 #. translators: 1: WordPress hook name, 2: version number
-#: wp-includes/functions.php:4337 wp-includes/functions.php:4491
-#: wp-includes/functions.php:4613
+#: wp-includes/functions.php:4338 wp-includes/functions.php:4492
+#: wp-includes/functions.php:4614
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Функция %1$s с версии %2$s <strong>считается устаревшей</strong>. Альтернативы не предусмотрено."
 
@@ -3394,52 +3399,52 @@ msgstr "Функция %1$s с версии %2$s <strong>считается ус
 #. translators: 1: PHP file name, 2: version number, 3: alternative file name
 #. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
 #. name
-#: wp-includes/functions.php:4334 wp-includes/functions.php:4488
-#: wp-includes/functions.php:4610
+#: wp-includes/functions.php:4335 wp-includes/functions.php:4489
+#: wp-includes/functions.php:4611
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Функция %1$s с версии %2$s <strong>считается устаревшей</strong>! Используйте %3$s."
 
-#: wp-includes/functions.php:4269
+#: wp-includes/functions.php:4270
 msgid "Database Error"
 msgstr "Ошибка базы данных"
 
-#: wp-includes/functions.php:3060
+#: wp-includes/functions.php:3061
 msgid "&laquo; Back"
 msgstr "&larr; Назад"
 
-#: wp-includes/functions.php:2920
+#: wp-includes/functions.php:2921
 msgid "Please try again."
 msgstr "Пожалуйста, попробуйте ещё раз."
 
-#: wp-includes/functions.php:2914
+#: wp-includes/functions.php:2915
 msgid "The link you followed has expired."
 msgstr "Ссылка, по которой вы перешли, устарела."
 
 #. translators: %s: logout URL
-#: wp-includes/functions.php:2910
+#: wp-includes/functions.php:2911
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Вы действительно хотите <a href='%s'>выйти</a>?"
 
 #. translators: %s: site name
-#: wp-includes/functions.php:2903
+#: wp-includes/functions.php:2904
 msgid "You are attempting to log out of %s"
 msgstr "Вы пытаетесь выйти с сайта &laquo;%s&raquo;"
 
-#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2403
 msgid "Could not write file %s"
 msgstr "Не удалось сохранить файл %s"
 
-#: wp-includes/functions.php:2345
+#: wp-includes/functions.php:2346
 msgid "Empty filename"
 msgstr "Пустое имя файла"
 
 #. translators: %s: directory path
-#: wp-includes/functions.php:2109 wp-includes/functions.php:2394
+#: wp-includes/functions.php:2110 wp-includes/functions.php:2395
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Не могу создать директорию %s. Проверьте, доступна ли родительская директория для записи."
 
 #. translators: %s: database repair URL
-#: wp-includes/functions.php:1580
+#: wp-includes/functions.php:1581
 msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "Одна или несколько таблиц базы данных недоступны. Возможно, база нуждается в <a href=\"%s\">ремонте</a>."
 
@@ -5732,7 +5737,7 @@ msgstr "%1$s (%2$s)"
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
 msgstr "<strong>ОШИБКА</strong>: Ваша учётная запись помечена как спамерская."
 
-#: wp-includes/user.php:300 wp-includes/functions.php:5994
+#: wp-includes/user.php:300 wp-includes/functions.php:5995
 msgid "Please log in again."
 msgstr "Пожалуйста, войдите заново."
 
@@ -7281,21 +7286,21 @@ msgstr "Настройки галереи"
 #: wp-includes/media-template.php:743 wp-includes/media-template.php:822
 #: wp-includes/media-template.php:1002 wp-includes/media.php:3307
 #: wp-includes/js/dist/editor.js:8326 wp-admin/includes/media.php:1079
-#: wp-admin/edit-form-blocks.php:213 wp-admin/custom-background.php:589
+#: wp-admin/edit-form-blocks.php:213 wp-admin/custom-background.php:591
 msgid "Full Size"
 msgstr "Полный"
 
 #: wp-includes/media-template.php:742 wp-includes/media-template.php:821
 #: wp-includes/media-template.php:1001 wp-includes/media.php:3306
 #: wp-includes/js/dist/editor.js:8323 wp-admin/includes/media.php:1078
-#: wp-admin/edit-form-blocks.php:212 wp-admin/custom-background.php:588
+#: wp-admin/edit-form-blocks.php:212 wp-admin/custom-background.php:590
 msgid "Large"
 msgstr "Большой"
 
 #: wp-includes/media-template.php:741 wp-includes/media-template.php:820
 #: wp-includes/media-template.php:1000 wp-includes/media.php:3305
 #: wp-includes/js/dist/editor.js:8320 wp-admin/includes/media.php:1077
-#: wp-admin/edit-form-blocks.php:211 wp-admin/custom-background.php:587
+#: wp-admin/edit-form-blocks.php:211 wp-admin/custom-background.php:589
 msgid "Medium"
 msgstr "Средний"
 
@@ -7303,7 +7308,7 @@ msgstr "Средний"
 #: wp-includes/media-template.php:999 wp-includes/media.php:3304
 #: wp-includes/js/dist/editor.js:8317 wp-admin/includes/image-edit.php:179
 #: wp-admin/includes/media.php:1076 wp-admin/edit-form-blocks.php:210
-#: wp-admin/custom-background.php:586
+#: wp-admin/custom-background.php:588
 msgid "Thumbnail"
 msgstr "Миниатюра"
 
@@ -7636,35 +7641,35 @@ msgstr "Закрыть окно параметров файла"
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "Произошла ошибка; возможно, лента недоступна. Повторите попытку позже."
 
-#: wp-includes/embed.php:1169
+#: wp-includes/embed.php:1174
 msgid "Close sharing dialog"
 msgstr "Закрыть окно вставки"
 
-#: wp-includes/embed.php:1164
+#: wp-includes/embed.php:1169
 msgid "Copy and paste this code into your site to embed"
 msgstr "Скопируйте и вставьте этот код на ваш сайт"
 
-#: wp-includes/embed.php:1157
+#: wp-includes/embed.php:1162
 msgid "Copy and paste this URL into your WordPress site to embed"
 msgstr "Скопируйте и вставьте этот URL на ваш сайт под управлением WordPress"
 
-#: wp-includes/embed.php:1150
+#: wp-includes/embed.php:1155
 msgid "HTML Embed"
 msgstr "HTML-код"
 
-#: wp-includes/embed.php:1147
+#: wp-includes/embed.php:1152
 msgid "WordPress Embed"
 msgstr "Вставка в WordPress"
 
-#: wp-includes/embed.php:1142
+#: wp-includes/embed.php:1147
 msgid "Sharing options"
 msgstr "Варианты вставки"
 
-#: wp-includes/embed.php:1125
+#: wp-includes/embed.php:1130
 msgid "Open sharing dialog"
 msgstr "Открыть окно вставки"
 
-#: wp-includes/embed.php:1101
+#: wp-includes/embed.php:1106
 msgid "%s <span class=\"screen-reader-text\">Comment</span>"
 msgid_plural "%s <span class=\"screen-reader-text\">Comments</span>"
 msgstr[0] "%s <span class=\"screen-reader-text\">комментарий</span>"
@@ -7672,7 +7677,7 @@ msgstr[1] "%s <span class=\"screen-reader-text\">комментария</span>"
 msgstr[2] "%s <span class=\"screen-reader-text\">комментариев</span>"
 
 #. translators: %s: Name of current post
-#: wp-includes/embed.php:946 wp-includes/post-template.php:278
+#: wp-includes/embed.php:951 wp-includes/post-template.php:278
 msgid "Continue reading %s"
 msgstr "Читать далее %s"
 
@@ -8449,7 +8454,7 @@ msgstr "Вы уверены, что указали правильное имя �
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "Это значит, что либо имя пользователя и пароль в файле %1$s неверны, либо нам не удалось связаться с сервером базы данных по адресу %2$s. Возможно, сервер недоступен."
 
-#: wp-includes/wp-db.php:1658 wp-includes/functions.php:4273
+#: wp-includes/wp-db.php:1658 wp-includes/functions.php:4274
 #: wp-includes/ms-load.php:468
 msgid "Error establishing a database connection"
 msgstr "Ошибка установки соединения с базой данных"
@@ -9918,7 +9923,7 @@ msgstr "При использовании клавиатуры для навиг
 #. translators: accessibility text
 #: wp-includes/widgets/class-wp-widget-custom-html.php:310
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
-#: wp-includes/functions.php:6891
+#: wp-includes/functions.php:6892
 #: wp-includes/class-wp-customize-manager.php:4297
 #: wp-includes/class-wp-customize-manager.php:5599
 #: wp-includes/class-wp-customize-manager.php:5620
@@ -10714,164 +10719,164 @@ msgstr "Следующие значения не соответствуют ко
 msgid "Invalid value %1$s for %2$s. Expected value should be between %3$s and %4$s."
 msgstr "Неверное значение %1$s для %2$s. Корректное значение должно быть между %3$s и %4$s."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6911
+#: wp-includes/class-wp-xmlrpc-server.php:6927
 msgid "The specified target URL does not exist."
 msgstr "Указанная ссылка не найдена."
 
 #. translators: 1: URL of the page linked from, 2: URL of the page linked to
-#: wp-includes/class-wp-xmlrpc-server.php:6878
+#: wp-includes/class-wp-xmlrpc-server.php:6894
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Уведомление от %1$s к %2$s зарегистрировано. Люди говорят! :-)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6834
+#: wp-includes/class-wp-xmlrpc-server.php:6850
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Адрес источника не содержит ссылки на получателя, и потому не может быть использован как источник."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6795
+#: wp-includes/class-wp-xmlrpc-server.php:6811
 msgid "We cannot find a title on that page."
 msgstr "Невозможно определить заголовок этой страницы."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6774
+#: wp-includes/class-wp-xmlrpc-server.php:6790
 msgid "The source URL does not exist."
 msgstr "Ссылка на источник не найдена."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6748
+#: wp-includes/class-wp-xmlrpc-server.php:6764
 msgid "The pingback has already been registered."
 msgstr "Уведомление уже было зарегистрировано."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6738
+#: wp-includes/class-wp-xmlrpc-server.php:6754
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Адрес источника и адрес получателя не могут указывать на один и тот же ресурс."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6727
-#: wp-includes/class-wp-xmlrpc-server.php:6734
 #: wp-includes/class-wp-xmlrpc-server.php:6743
-#: wp-includes/class-wp-xmlrpc-server.php:6904
+#: wp-includes/class-wp-xmlrpc-server.php:6750
+#: wp-includes/class-wp-xmlrpc-server.php:6759
+#: wp-includes/class-wp-xmlrpc-server.php:6920
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Заданный URL нельзя использовать в качестве адресата. Его не существует, либо он указывает на ресурс без возможности уведомлений."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6691
+#: wp-includes/class-wp-xmlrpc-server.php:6707
 msgid "Is there no link to us?"
 msgstr "Похоже, что ссылки на наш сайт нет."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6685 wp-includes/class-http.php:275
+#: wp-includes/class-wp-xmlrpc-server.php:6701 wp-includes/class-http.php:275
 #: wp-includes/class-http.php:493
 msgid "A valid URL was not provided."
 msgstr "Предоставлен неверный URL."
 
 #. translators: 1: file name, 2: error message
-#: wp-includes/class-wp-xmlrpc-server.php:6258
+#: wp-includes/class-wp-xmlrpc-server.php:6274
 msgid "Could not write file %1$s (%2$s)."
 msgstr "Не удалось записать файл %1$s (%2$s)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6237
+#: wp-includes/class-wp-xmlrpc-server.php:6253
 msgid "Sorry, you have used your space allocation."
 msgstr "К сожалению, вы использовали всё доступное пространство."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5819
+#: wp-includes/class-wp-xmlrpc-server.php:5835
 msgid "Sorry, your entry could not be edited."
 msgstr "Извините, ваша запись не может быть отредактирована."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5770
+#: wp-includes/class-wp-xmlrpc-server.php:5786
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Извините, вам не разрешено публиковать эту страницу."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5660
+#: wp-includes/class-wp-xmlrpc-server.php:5676
 msgid "Sorry, you are not allowed to change the page author as this user."
 msgstr "Извините, вам не разрешено изменять автора страницы от лица этого пользователя."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5655
+#: wp-includes/class-wp-xmlrpc-server.php:5671
 msgid "Sorry, you are not allowed to change the post author as this user."
 msgstr "Извините, вам не разрешено изменять автора записи от лица этого пользователя."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5295 wp-admin/includes/post.php:40
+#: wp-includes/class-wp-xmlrpc-server.php:5311 wp-admin/includes/post.php:40
 #: wp-admin/includes/post.php:85
 msgid "Sorry, you are not allowed to create pages as this user."
 msgstr "Извините, вам не разрешено создавать страницы от лица этого пользователя."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5251
-#: wp-includes/class-wp-xmlrpc-server.php:5603
+#: wp-includes/class-wp-xmlrpc-server.php:5267
+#: wp-includes/class-wp-xmlrpc-server.php:5619
 msgid "Invalid post format."
 msgstr "Неверный формат записи"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5222
-#: wp-includes/class-wp-xmlrpc-server.php:5236
-#: wp-includes/class-wp-xmlrpc-server.php:5241
+#: wp-includes/class-wp-xmlrpc-server.php:5238
+#: wp-includes/class-wp-xmlrpc-server.php:5252
+#: wp-includes/class-wp-xmlrpc-server.php:5257
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr "Извините, вам не разрешено публиковать записи на этом сайте."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5209
+#: wp-includes/class-wp-xmlrpc-server.php:5225
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Извините, вам не разрешено публиковать страницы на этом сайте."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5067
+#: wp-includes/class-wp-xmlrpc-server.php:5083
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "По какой-то странной и неприятной причине эту запись не удалось отредактировать."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5052
-#: wp-includes/class-wp-xmlrpc-server.php:5772
-#: wp-includes/class-wp-xmlrpc-server.php:6632
+#: wp-includes/class-wp-xmlrpc-server.php:5068
+#: wp-includes/class-wp-xmlrpc-server.php:5788
+#: wp-includes/class-wp-xmlrpc-server.php:6648
 msgid "Sorry, you are not allowed to publish this post."
 msgstr "Извините, вам не разрешено публиковать эту запись."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5043
-#: wp-includes/class-wp-xmlrpc-server.php:5116
-#: wp-includes/class-wp-xmlrpc-server.php:6011
-#: wp-includes/class-wp-xmlrpc-server.php:6573
+#: wp-includes/class-wp-xmlrpc-server.php:5059
+#: wp-includes/class-wp-xmlrpc-server.php:5132
+#: wp-includes/class-wp-xmlrpc-server.php:6027
+#: wp-includes/class-wp-xmlrpc-server.php:6589
 msgid "Sorry, no such post."
 msgstr "Извините, такой записи нет."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4916
-#: wp-includes/class-wp-xmlrpc-server.php:4929 wp-admin/includes/file.php:389
+#: wp-includes/class-wp-xmlrpc-server.php:4932
+#: wp-includes/class-wp-xmlrpc-server.php:4945 wp-admin/includes/file.php:389
 #: wp-admin/includes/file.php:449 wp-admin/includes/file.php:678
 #: wp-admin/includes/file.php:684
 msgid "Sorry, that file cannot be edited."
 msgstr "Извините, этот файл не может быть изменён."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4878
-#: wp-includes/class-wp-xmlrpc-server.php:6343
+#: wp-includes/class-wp-xmlrpc-server.php:4894
+#: wp-includes/class-wp-xmlrpc-server.php:6359
 msgid "Either there are no posts, or something went wrong."
 msgstr "Либо записей нет, либо что-то случилось."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4764
+#: wp-includes/class-wp-xmlrpc-server.php:4780
 msgid "Sorry, you are not allowed to access user data on this site."
 msgstr "Извините, вам не разрешено получать данные пользователей этого сайта."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4556
-#: wp-includes/class-wp-xmlrpc-server.php:4636
+#: wp-includes/class-wp-xmlrpc-server.php:4572
+#: wp-includes/class-wp-xmlrpc-server.php:4652
 msgid "Sorry, revisions are disabled."
 msgstr "Извините, редакции отключены."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4230
-#: wp-includes/class-wp-xmlrpc-server.php:4281
-#: wp-includes/class-wp-xmlrpc-server.php:6232
+#: wp-includes/class-wp-xmlrpc-server.php:4245
+#: wp-includes/class-wp-xmlrpc-server.php:4297
+#: wp-includes/class-wp-xmlrpc-server.php:6248
 #: wp-admin/includes/ajax-actions.php:2305 wp-admin/async-upload.php:38
 #: wp-admin/upload.php:13 wp-admin/media-new.php:16
 #: wp-admin/media-upload.php:20
 msgid "Sorry, you are not allowed to upload files."
 msgstr "Извините, вам не разрешено загружать файлы."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4174
+#: wp-includes/class-wp-xmlrpc-server.php:4189
 msgid "Sorry, you are not allowed to update options."
 msgstr "Извините, вам не разрешено обновлять настройки."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3966
+#: wp-includes/class-wp-xmlrpc-server.php:3981
 msgid "Sorry, you are not allowed to access details of this post."
 msgstr "Извините, вам не разрешено получать детальную информацию об этой записи."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3925
-#: wp-includes/class-wp-xmlrpc-server.php:4007
-#: wp-includes/class-wp-xmlrpc-server.php:4041
-#: wp-includes/class-wp-xmlrpc-server.php:4075
-#: wp-includes/class-wp-xmlrpc-server.php:4336
+#: wp-includes/class-wp-xmlrpc-server.php:3940
+#: wp-includes/class-wp-xmlrpc-server.php:4022
+#: wp-includes/class-wp-xmlrpc-server.php:4056
+#: wp-includes/class-wp-xmlrpc-server.php:4090
+#: wp-includes/class-wp-xmlrpc-server.php:4352
 msgid "Sorry, you are not allowed to access details about this site."
 msgstr "Извините, вам не разрешено получать детальную информацию об этом сайте."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3868
+#: wp-includes/class-wp-xmlrpc-server.php:3883
 msgid "A valid email address is required."
 msgstr "Требуется корректный адрес e-mail"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3866
+#: wp-includes/class-wp-xmlrpc-server.php:3881
 msgid "Comment author name and email are required."
 msgstr "Требуются имя и e-mail автора комментария"
 
@@ -10918,8 +10923,8 @@ msgid "Invalid comment ID."
 msgstr "Неверный ID комментария."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3440
-#: wp-includes/class-wp-xmlrpc-server.php:6166
-#: wp-includes/class-wp-xmlrpc-server.php:6395
+#: wp-includes/class-wp-xmlrpc-server.php:6182
+#: wp-includes/class-wp-xmlrpc-server.php:6411
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "Извините, чтобы просматривать рубрики, вам нужны права на редактирование записей на этом сайте."
 
@@ -10941,9 +10946,9 @@ msgid "Sorry, you must be able to edit posts on this site in order to view tags.
 msgstr "Извините, чтобы просматривать метки, вам нужны права на редактирование записей на этом сайте."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3211
-#: wp-includes/class-wp-xmlrpc-server.php:4551
-#: wp-includes/class-wp-xmlrpc-server.php:4869
-#: wp-includes/class-wp-xmlrpc-server.php:6046 wp-admin/includes/post.php:465
+#: wp-includes/class-wp-xmlrpc-server.php:4567
+#: wp-includes/class-wp-xmlrpc-server.php:4885
+#: wp-includes/class-wp-xmlrpc-server.php:6062 wp-admin/includes/post.php:465
 msgid "Sorry, you are not allowed to edit posts."
 msgstr "Извините, вам не разрешено редактировать записи."
 
@@ -11069,7 +11074,7 @@ msgid "Sorry, you are not allowed to create terms in this taxonomy."
 msgstr "Извините, вам не разрешено создавать элементы этой таксономии."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1925
-#: wp-includes/class-wp-xmlrpc-server.php:4428
+#: wp-includes/class-wp-xmlrpc-server.php:4444
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:142
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:90
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:139
@@ -11078,14 +11083,14 @@ msgid "Sorry, you are not allowed to edit posts in this post type."
 msgstr "Извините, вам не разрешено редактировать записи этого типа."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1766
-#: wp-includes/class-wp-xmlrpc-server.php:5126
+#: wp-includes/class-wp-xmlrpc-server.php:5142
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:428
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:859
 msgid "The post cannot be deleted."
 msgstr "Невозможно удалить запись."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1760
-#: wp-includes/class-wp-xmlrpc-server.php:5120
+#: wp-includes/class-wp-xmlrpc-server.php:5136
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:779
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:823
 msgid "Sorry, you are not allowed to delete this post."
@@ -11096,8 +11101,8 @@ msgid "There is a revision of this post that is more recent."
 msgstr "Найдена более свежая редакция записи."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1638
-#: wp-includes/class-wp-xmlrpc-server.php:4988
-#: wp-includes/class-wp-xmlrpc-server.php:5476
+#: wp-includes/class-wp-xmlrpc-server.php:5004
+#: wp-includes/class-wp-xmlrpc-server.php:5492
 msgid "Sorry, your entry could not be posted."
 msgstr "Извините, ваша запись не может быть отправлена."
 
@@ -11127,20 +11132,20 @@ msgid "Sorry, one of the given taxonomies is not supported by the post type."
 msgstr "Извините, одна из указанных таксономий не поддерживается этим типом записей."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1494
-#: wp-includes/class-wp-xmlrpc-server.php:4237
-#: wp-includes/class-wp-xmlrpc-server.php:5452
-#: wp-includes/class-wp-xmlrpc-server.php:5844
+#: wp-includes/class-wp-xmlrpc-server.php:4253
+#: wp-includes/class-wp-xmlrpc-server.php:5468
+#: wp-includes/class-wp-xmlrpc-server.php:5860
 msgid "Invalid attachment ID."
 msgstr "Неверный ID вложения."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1444
-#: wp-includes/class-wp-xmlrpc-server.php:5303
+#: wp-includes/class-wp-xmlrpc-server.php:5319
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1052
 msgid "Invalid author ID."
 msgstr "Неверный ID автора."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1438
-#: wp-includes/class-wp-xmlrpc-server.php:5290
+#: wp-includes/class-wp-xmlrpc-server.php:5306
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:499
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:507
 #: wp-admin/includes/post.php:42 wp-admin/includes/post.php:87
@@ -11163,25 +11168,25 @@ msgid "Sorry, you are not allowed to create private posts in this post type."
 msgstr "Извините, вам не разрешено создавать личные записи этого типа"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1405
-#: wp-includes/class-wp-xmlrpc-server.php:4966
+#: wp-includes/class-wp-xmlrpc-server.php:4982
 msgid "Sorry, you are not allowed to post on this site."
 msgstr "Извините, вам не разрешено публиковаться на этом сайте."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1401
-#: wp-includes/class-wp-xmlrpc-server.php:5596
+#: wp-includes/class-wp-xmlrpc-server.php:5612
 msgid "The post type may not be changed."
 msgstr "Тип записи изменить нельзя."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1398
 #: wp-includes/class-wp-xmlrpc-server.php:1860
-#: wp-includes/class-wp-xmlrpc-server.php:4631
-#: wp-includes/class-wp-xmlrpc-server.php:4813
-#: wp-includes/class-wp-xmlrpc-server.php:5049
-#: wp-includes/class-wp-xmlrpc-server.php:5586
-#: wp-includes/class-wp-xmlrpc-server.php:5906
-#: wp-includes/class-wp-xmlrpc-server.php:6267
-#: wp-includes/class-wp-xmlrpc-server.php:6451
-#: wp-includes/class-wp-xmlrpc-server.php:6508
+#: wp-includes/class-wp-xmlrpc-server.php:4647
+#: wp-includes/class-wp-xmlrpc-server.php:4829
+#: wp-includes/class-wp-xmlrpc-server.php:5065
+#: wp-includes/class-wp-xmlrpc-server.php:5602
+#: wp-includes/class-wp-xmlrpc-server.php:5922
+#: wp-includes/class-wp-xmlrpc-server.php:6283
+#: wp-includes/class-wp-xmlrpc-server.php:6467
+#: wp-includes/class-wp-xmlrpc-server.php:6524
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:405
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:650
 #: wp-admin/includes/post.php:257 wp-admin/includes/post.php:1857
@@ -11197,17 +11202,17 @@ msgstr "Извините, вам не разрешено редактирова�
 #: wp-includes/class-wp-xmlrpc-server.php:2887
 #: wp-includes/class-wp-xmlrpc-server.php:3817
 #: wp-includes/class-wp-xmlrpc-server.php:3821
-#: wp-includes/class-wp-xmlrpc-server.php:3962
-#: wp-includes/class-wp-xmlrpc-server.php:4547
-#: wp-includes/class-wp-xmlrpc-server.php:4619
-#: wp-includes/class-wp-xmlrpc-server.php:4623
-#: wp-includes/class-wp-xmlrpc-server.php:4627
-#: wp-includes/class-wp-xmlrpc-server.php:4809
-#: wp-includes/class-wp-xmlrpc-server.php:5582
-#: wp-includes/class-wp-xmlrpc-server.php:5902
-#: wp-includes/class-wp-xmlrpc-server.php:6447
-#: wp-includes/class-wp-xmlrpc-server.php:6504
-#: wp-includes/class-wp-xmlrpc-server.php:6628
+#: wp-includes/class-wp-xmlrpc-server.php:3977
+#: wp-includes/class-wp-xmlrpc-server.php:4563
+#: wp-includes/class-wp-xmlrpc-server.php:4635
+#: wp-includes/class-wp-xmlrpc-server.php:4639
+#: wp-includes/class-wp-xmlrpc-server.php:4643
+#: wp-includes/class-wp-xmlrpc-server.php:4825
+#: wp-includes/class-wp-xmlrpc-server.php:5598
+#: wp-includes/class-wp-xmlrpc-server.php:5918
+#: wp-includes/class-wp-xmlrpc-server.php:6463
+#: wp-includes/class-wp-xmlrpc-server.php:6520
+#: wp-includes/class-wp-xmlrpc-server.php:6644
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:334
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:709
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:377
@@ -11219,11 +11224,11 @@ msgstr "Неверный ID записи."
 #: wp-includes/class-wp-xmlrpc-server.php:1388
 #: wp-includes/class-wp-xmlrpc-server.php:1918
 #: wp-includes/class-wp-xmlrpc-server.php:3561
-#: wp-includes/class-wp-xmlrpc-server.php:4422
-#: wp-includes/class-wp-xmlrpc-server.php:5226
-#: wp-includes/class-wp-xmlrpc-server.php:5299
-#: wp-includes/class-wp-xmlrpc-server.php:5591
-#: wp-includes/class-wp-xmlrpc-server.php:5664
+#: wp-includes/class-wp-xmlrpc-server.php:4438
+#: wp-includes/class-wp-xmlrpc-server.php:5242
+#: wp-includes/class-wp-xmlrpc-server.php:5315
+#: wp-includes/class-wp-xmlrpc-server.php:5607
+#: wp-includes/class-wp-xmlrpc-server.php:5680
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:131
 #: wp-includes/post.php:1398 wp-includes/class-wp-customize-nav-menus.php:878
 #: wp-admin/async-upload.php:45 wp-admin/post.php:122 wp-admin/post.php:237
@@ -12365,7 +12370,7 @@ msgctxt "label for hide controls button without length constraints"
 msgid "Hide Controls"
 msgstr "Скрыть управление"
 
-#: wp-includes/script-loader.php:1386 wp-includes/functions.php:5993
+#: wp-includes/script-loader.php:1386 wp-includes/functions.php:5994
 msgid "Session expired"
 msgstr "Сессия истекла"
 
@@ -13032,7 +13037,7 @@ msgstr "Превышен лимит памяти. Пожалуйста, выбе
 msgid "This file is not an image. Please try another."
 msgstr "Файл не является изображением. Пожалуйста, выберите другой."
 
-#: wp-includes/script-loader.php:1066 wp-includes/functions.php:2350
+#: wp-includes/script-loader.php:1066 wp-includes/functions.php:2351
 #: wp-includes/js/dist/editor.js:22459 wp-admin/includes/file.php:810
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Извините, этот тип файла недопустим по соображениям безопасности."
@@ -13122,7 +13127,7 @@ msgstr "Закрыть"
 
 #: wp-includes/script-loader.php:885 wp-includes/script-loader.php:1382
 #: wp-includes/script-loader.php:1470 wp-includes/script-loader.php:1721
-#: wp-includes/class-wp-xmlrpc-server.php:3884 wp-includes/functions.php:2925
+#: wp-includes/class-wp-xmlrpc-server.php:3899 wp-includes/functions.php:2926
 #: wp-includes/class-wp-customize-manager.php:450
 #: wp-admin/includes/file.php:594 wp-admin/customize.php:79
 #: wp-admin/themes.php:27 wp-admin/themes.php:50 wp-admin/users.php:144
@@ -13393,7 +13398,7 @@ msgid "Menus"
 msgstr "Меню"
 
 #: wp-includes/admin-bar.php:938 wp-includes/class-wp-customize-widgets.php:417
-#: wp-includes/functions.php:4203 wp-includes/js/dist/blocks.js:5503
+#: wp-includes/functions.php:4204 wp-includes/js/dist/blocks.js:5503
 #: wp-admin/includes/post.php:2159 wp-admin/widgets.php:49
 msgid "Widgets"
 msgstr "Виджеты"
@@ -13708,7 +13713,7 @@ msgstr "Мне нужен ID, чтобы это сработало."
 msgid "Comment Submission Failure"
 msgstr "Ошибка при отправке комментария"
 
-#: wp-load.php:92 wp-includes/functions.php:3415
+#: wp-load.php:92 wp-includes/functions.php:3416
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Ошибка"
 
