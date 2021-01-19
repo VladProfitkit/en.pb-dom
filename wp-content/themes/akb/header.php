@@ -11,7 +11,15 @@
     <!--<meta name="keywords" content="<?php echo get_post_meta($post->ID, 'keywords', true); ?>" />-->
     <meta name="google-site-verification" content="nyETLiaVW0Km1wyVwtpA9eG2y8VYrxtiKJX3X_5bmCA" />
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78894850-53"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-78894850-53');
+    </script>
 
     <link rel="icon" href="/wp-content/themes/akb/img/favicon.ico" type="image/x-icon"/>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -51,13 +59,12 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="logo-box">
-                        <a class="navbar-brand" href="<?php echo site_url(); ?>"><img
-                                src="/wp-content/uploads/2020/08/logos-11.png" alt="logo"></a>
+                        <a class="navbar-brand" href="<?php echo site_url(); ?>"><img src="/wp-content/uploads/2020/08/logos-11.png" alt="logo"></a>
                     </div>
                 </div>
                 <div class="navbar-collapse collapse text-center">
                     <div class="call-box">
-                        <div><span>+7 (953) 159-92-33</span></div>
+                        <div><a href="tel:+79531599233" onclick="gtag('event', 'phone_click', {'event_category': 'telefon', 'event_action': 'click'}); return true;">+7 (953) 159-92-33</a></div>
                         <?/*<div><input type="button" value="Заказать звонок" id="popup__toggle" class="my_button"></div>*/?>
                     </div>
                     <?php wp_nav_menu(

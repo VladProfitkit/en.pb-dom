@@ -134,4 +134,18 @@ jQuery(document).ready(function($) {
         asNavFor            : "",                //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
     });
 */
+
+    //gtag:
+	const addTarget = function (id, eventLabel, eventCat, eventAction) {
+		let form = $('#'+id+' form');
+		form.on('submit', function () {
+			gtag('event', eventLabel, {'event_category': eventCat, 'event_action': eventAction});
+			return true;
+		});
+	};
+
+	addTarget('wpcf7-f616-p2-o2', 'send', 'form', 'otpravka');
+	addTarget('wpcf7-f618-p28-o2', 'contact', 'form', 'otpravka');
+
+	onclick="gtag('event', 'phone_click', {'event_category': 'telefon', 'event_action': 'click'}); return true;"
 });

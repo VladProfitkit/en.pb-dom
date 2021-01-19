@@ -1573,7 +1573,8 @@ table td {
         height: auto;
     }
 
-    .call-box span {
+    .call-box span,
+    .call-box a {
         white-space: nowrap;
     }
 }
@@ -1587,7 +1588,8 @@ table td {
         max-width: 100%;
     }
 
-    .call-box span {
+    .call-box span,
+    .call-box a {
         font-size: 15px !important;
     }
 }

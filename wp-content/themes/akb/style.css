@@ -2088,7 +2088,8 @@ article img.pull-right, article .align-right{
    padding: 10px;	
 }
 
-.call-box span{
+.call-box span,
+.call-box a {
   color: #fff;
   font-weight: bold;
   font-size: 19px;

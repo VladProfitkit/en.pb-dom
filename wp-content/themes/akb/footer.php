@@ -4,11 +4,12 @@
       
       <div class="col-lg-3 right">
         <div class="widget">
-          <p class="widgetheading" onclick = "location.href = 'http://pb-dom.ru/kontakty/';" style = "cursor: pointer">Contact us</p>
+          <p class="widgetheading" onclick = "location.href = 'http://en.pb-dom.ru/kontakty/';" style = "cursor: pointer">Contact us</p>
           <address>
             St. Petersburg <br>
             ul. Vatutina, 24 <br>
-            +7 (953) 159-92-33 </address>
+            <a href="tel:+79531599233" onclick="gtag('event', 'phone_click', {'event_category': 'telefon', 'event_action': 'click'}); return true;">+7 (953) 159-92-33</a>
+          </address>
           </div>
       </div>
       
