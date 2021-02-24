@@ -19,6 +19,12 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-78894850-53');
+        gtag('config', 'AW-454607807');
+    </script>
+    <script>
+        gtag('config', 'AW-454607807/Y2_CCNmTivYBEL-H49gB', {
+            'phone_conversion_number': '+7 (953) 159-92-33'
+        });
     </script>
 
     <link rel="icon" href="/wp-content/themes/akb/img/favicon.ico" type="image/x-icon"/>

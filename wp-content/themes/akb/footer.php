@@ -75,6 +75,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-133561887-1');
+  gtag('config', 'AW-454607807');
 </script>
 </footer>
 
